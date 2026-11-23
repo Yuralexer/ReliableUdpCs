@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\ReliableUdp.Protocol\ReliableUdp.Protocol.csproj" />
+    <ProjectReference Include="..\ReliableUdp.Telemetry\ReliableUdp.Telemetry.csproj" />
+    <ProjectReference Include="..\ReliableUdp.Reliability\ReliableUdp.Reliability.csproj" />
+    <ProjectReference Include="..\ReliableUdp.Transport\ReliableUdp.Transport.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>

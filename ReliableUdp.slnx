@@ -1,0 +1,13 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/ReliableUdp.Client/ReliableUdp.Client.csproj" />
+    <Project Path="src/ReliableUdp.Protocol/ReliableUdp.Protocol.csproj" />
+    <Project Path="src/ReliableUdp.Reliability/ReliableUdp.Reliability.csproj" />
+    <Project Path="src/ReliableUdp.Server/ReliableUdp.Server.csproj" />
+    <Project Path="src/ReliableUdp.Telemetry/ReliableUdp.Telemetry.csproj" />
+    <Project Path="src/ReliableUdp.Transport/ReliableUdp.Transport.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/ReliableUdp.Tests/ReliableUdp.Tests.csproj" />
+  </Folder>
+</Solution>
